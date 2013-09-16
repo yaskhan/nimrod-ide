@@ -5,16 +5,16 @@ IDE for Nimrod language
 ###Uses:
 
 
-- [ExtJS]( www.sencha.com/products/extjs/)
+- [ExtJS]( http://www.sencha.com/products/extjs/)
     
-- [Sencha Architect (trial version)](www.sencha.com/products/architect/)
+- [Sencha Architect (trial version)](http://www.sencha.com/products/architect/)
     
 - [ACE]( http://ace.c9.io/)
     
 - [Node-Webkit]( https://github.com/rogerwang/node-webkit)
 
 
-###What's works now:
+###Features:
 
 - Highlighting
 - Folding
