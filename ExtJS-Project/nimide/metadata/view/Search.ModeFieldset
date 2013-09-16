@@ -1,0 +1,87 @@
+{
+    "type": "Ext.form.FieldSet",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 130,
+        "width": 260,
+        "designer|userClassName": "Search.ModeFieldset",
+        "designer|userAlias": "searchfieldset",
+        "title": "Searche mode"
+    },
+    "designerId": "f1c80888-dc96-4854-bc30-53a89ca599d7",
+    "cn": [
+        {
+            "type": "Ext.form.CheckboxGroup",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "height": 100,
+                "layout": "vbox",
+                "fieldLabel": null
+            },
+            "designerId": "218f46b6-b87b-45f9-a28f-35d94b5c2395",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Checkbox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "boxLabel": "Normal"
+                    },
+                    "designerId": "5280e12f-cc79-4e66-8058-3b0b1f344a14"
+                },
+                {
+                    "type": "Ext.form.field.Checkbox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "boxLabel": "Extended"
+                    },
+                    "designerId": "eead5d21-b7b8-430e-b4ac-b067cfd8d4be"
+                },
+                {
+                    "type": "Ext.form.field.Checkbox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "boxLabel": "Regex"
+                    },
+                    "designerId": "79467c18-d85d-4341-ab2a-c6baf41832d2"
+                },
+                {
+                    "type": "Ext.form.field.Checkbox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": null,
+                        "boxLabel": ". match newline"
+                    },
+                    "designerId": "b5261ee2-60e1-4ef6-b07a-b881904d0ef4"
+                }
+            ]
+        }
+    ]
+}

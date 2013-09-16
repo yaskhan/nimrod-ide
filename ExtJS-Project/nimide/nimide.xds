@@ -1,0 +1,133 @@
+{
+    "name": "nimide",
+    "settings": {
+        "urlPrefix": "http://nimrodidetst.kz",
+        "exportPath": "G:/day/day5/nimIDE"
+    },
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "4eb33245-4736-4e5c-ad83-644515d98b60": {
+            "paths": [
+                "metadata/view/MainViewport",
+                "app/view/override/MainViewport.js",
+                "app/view/MainViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MainViewport"
+        },
+        "05507e07-f2b0-438e-80a1-0e6809944118": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "e7745516-5397-4ace-b2c5-d49b52851f64": {
+            "paths": [
+                "metadata/view/ConfigWindow",
+                "app/view/override/ConfigWindow.js",
+                "app/view/ConfigWindow.js"
+            ],
+            "className": "ConfigWindow"
+        },
+        "8c9df604-5a33-43ed-9aba-38fe4353d30a": {
+            "paths": [
+                "metadata/view/SearchWindow",
+                "app/view/override/SearchWindow.js",
+                "app/view/SearchWindow.js"
+            ],
+            "className": "SearchWindow"
+        },
+        "75d11c16-4425-4162-8c60-4b0a0124c564": {
+            "paths": [
+                "metadata/view/AboutWindow",
+                "app/view/override/AboutWindow.js",
+                "app/view/AboutWindow.js"
+            ],
+            "className": "AboutWindow"
+        },
+        "624f2064-5205-42e8-844f-7a5cbcd3e275": {
+            "paths": [
+                "metadata/view/MainToolbar",
+                "app/view/override/MainToolbar.js",
+                "app/view/MainToolbar.js"
+            ],
+            "className": "MainToolbar"
+        },
+        "7e0f4aa3-bed7-4c10-a6b5-af10bf968440": {
+            "paths": [
+                "metadata/view/MainFilesPanel",
+                "app/view/override/MainFilesPanel.js",
+                "app/view/MainFilesPanel.js"
+            ],
+            "className": "MainFilesPanel"
+        },
+        "3eeb04a4-57dc-4098-9b18-a2e2bdbf8756": {
+            "paths": [
+                "metadata/view/MainVariablesPanel",
+                "app/view/override/MainVariablesPanel.js",
+                "app/view/MainVariablesPanel.js"
+            ],
+            "className": "MainVariablesPanel"
+        },
+        "897b0547-e764-489c-ae82-dfb2c8cc0a0b": {
+            "paths": [
+                "metadata/view/MainConsolePanel",
+                "app/view/override/MainConsolePanel.js",
+                "app/view/MainConsolePanel.js"
+            ],
+            "className": "MainConsolePanel"
+        },
+        "a6a26605-7fe9-4552-8739-d6198ccca0e0": {
+            "paths": [
+                "metadata/view/MainSourceTabPanel",
+                "app/view/override/MainSourceTabPanel.js",
+                "app/view/MainSourceTabPanel.js"
+            ],
+            "className": "MainSourceTabPanel"
+        },
+        "f1c80888-dc96-4854-bc30-53a89ca599d7": {
+            "paths": [
+                "metadata/view/Search.ModeFieldset",
+                "app/view/override/Search/ModeFieldset.js",
+                "app/view/Search/ModeFieldset.js"
+            ],
+            "className": "Search.ModeFieldset"
+        },
+        "dcadbb7e-db0c-4424-bdc4-f9c20534d9b1": {
+            "paths": [
+                "metadata/view/Search.searcheComboBox",
+                "app/view/override/Search/searcheComboBox.js",
+                "app/view/Search/searcheComboBox.js"
+            ],
+            "className": "Search.searcheComboBox"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "4eb33245-4736-4e5c-ad83-644515d98b60",
+            "e7745516-5397-4ace-b2c5-d49b52851f64",
+            "8c9df604-5a33-43ed-9aba-38fe4353d30a",
+            "75d11c16-4425-4162-8c60-4b0a0124c564",
+            "624f2064-5205-42e8-844f-7a5cbcd3e275",
+            "7e0f4aa3-bed7-4c10-a6b5-af10bf968440",
+            "3eeb04a4-57dc-4098-9b18-a2e2bdbf8756",
+            "897b0547-e764-489c-ae82-dfb2c8cc0a0b",
+            "a6a26605-7fe9-4552-8739-d6198ccca0e0",
+            "f1c80888-dc96-4854-bc30-53a89ca599d7",
+            "dcadbb7e-db0c-4424-bdc4-f9c20534d9b1"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "05507e07-f2b0-438e-80a1-0e6809944118"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

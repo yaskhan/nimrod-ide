@@ -1,0 +1,45 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "maxWidth": null,
+        "width": 200,
+        "designer|userClassName": "MainVariablesPanel",
+        "designer|userAlias": "MainVariablesPanelAlias",
+        "layout": "border",
+        "collapsible": true,
+        "title": "Variables"
+    },
+    "designerId": "3eeb04a4-57dc-4098-9b18-a2e2bdbf8756",
+    "cn": [
+        {
+            "type": "Ext.tree.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "header": false,
+                "title": "My Tree Panel"
+            },
+            "designerId": "c4fe5e17-adaf-40bc-b470-ea5ba97d62d7",
+            "cn": [
+                {
+                    "type": "Ext.tree.View",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "27b85deb-2ca7-403d-adde-e265e1030cbd"
+                }
+            ]
+        }
+    ]
+}

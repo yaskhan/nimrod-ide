@@ -1,0 +1,15 @@
+{
+    "type": "Ext.form.field.ComboBox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "width": 640,
+        "designer|userClassName": "Search.searcheComboBox",
+        "designer|userAlias": "mycombobox10",
+        "fieldLabel": "Search"
+    },
+    "designerId": "dcadbb7e-db0c-4424-bdc4-f9c20534d9b1"
+}

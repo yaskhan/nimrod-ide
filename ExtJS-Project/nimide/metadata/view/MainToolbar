@@ -1,0 +1,756 @@
+{
+    "type": "Ext.toolbar.Toolbar",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 31,
+        "designer|userClassName": "MainToolbar",
+        "designer|userAlias": "maintoolbar"
+    },
+    "designerId": "624f2064-5205-42e8-844f-7a5cbcd3e275",
+    "cn": [
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "File"
+            },
+            "designerId": "0e95af1a-8fd8-4b47-be34-835ac5b69c46",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "cc141fcd-42cc-4148-8582-6040837602fe",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "New..."
+                            },
+                            "designerId": "0e39a0e9-f557-426e-acde-ff9865741b71",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onMenuitemClick1",
+                                        "implHandler": [
+                                            ""
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "fa95c509-0156-4082-aa06-3ee49346d764"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "New from template"
+                            },
+                            "designerId": "c7bf0820-74d3-4d76-a35f-2081e3776540"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "5b7980b0-282d-41f4-be85-7ea7536684c1"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Open"
+                            },
+                            "designerId": "2f4b77fa-6714-4b68-a089-ca9af527615f"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "088978af-aca8-4674-bfc7-16969abc24fc"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Save as..."
+                            },
+                            "designerId": "a2b0adb3-2a8a-49e5-ae53-efb0f6430832"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Save"
+                            },
+                            "designerId": "a28f68de-66d7-4774-9d7a-0b86ccd0ea9f"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "0fde0470-e3c6-4860-b00f-cdd94e98d078"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Properties"
+                            },
+                            "designerId": "8e9e607d-8ac5-4b96-842f-cf71091986fe"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "6468bc2e-f68b-44e3-bf1c-e560d92155fd"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Exit"
+                            },
+                            "designerId": "8ac37688-6a14-4f0b-b3e2-b2b5fa663749"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Edit"
+            },
+            "designerId": "a57bf936-8939-4636-813c-caf346b2f190",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "d861a012-d63d-4fcd-ae70-8ee6b4e41f6f",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Undo"
+                            },
+                            "designerId": "44ab8d03-7cf0-45af-a06f-1f8bea156127"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Redo"
+                            },
+                            "designerId": "222145de-7d26-4621-ac45-dca38fb9cfae"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "68c6ca8e-cd4a-41cd-96b5-dfc276d6857b"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Cut"
+                            },
+                            "designerId": "294e3c29-2fca-4593-b833-27798025683c"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Paste"
+                            },
+                            "designerId": "f6cde6c3-84b9-48a4-9163-835b4dfaa3ec"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Copy"
+                            },
+                            "designerId": "9f28f073-6d59-40cb-aaef-c985689d6f61"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "0c377472-bc16-4f39-8ae0-484d7193107c"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Comment"
+                            },
+                            "designerId": "bbc9ca27-1d19-4919-87f7-08ec2cae2c57"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Navigate"
+            },
+            "designerId": "00e58400-afa0-4514-aa21-5d76df7196dd",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "c5289402-b5a0-4948-a57d-a45824db3c59",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Go into"
+                            },
+                            "designerId": "693963e0-9e89-4078-ac36-5366bb76abb0"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Go to"
+                            },
+                            "designerId": "18562fb3-5acd-4c3b-98ec-7c558a2587dd"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Open declaration"
+                            },
+                            "designerId": "0d4a7e90-0ced-4f94-a67a-c15ff81e03ad"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Go to line"
+                            },
+                            "designerId": "0f81a5c2-4aa9-4939-832a-d2d3d95dec80"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Back"
+                            },
+                            "designerId": "05e62e9c-c645-4dfc-ad0e-59cd0349fcaf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Search"
+            },
+            "designerId": "22798cbc-07ec-4caa-b490-94b118d9fa66",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "394bb760-d392-421b-89c1-2500dab8e5a1",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Find"
+                            },
+                            "designerId": "2bb2dc35-d127-4369-a507-4ad0595be94c"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Replace"
+                            },
+                            "designerId": "66c8069c-b57c-4e51-bebe-f1f92fcf73e4"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Searche in file"
+                            },
+                            "designerId": "771d8594-4fa8-4f5d-9c8b-689888cacd19"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Searche in project"
+                            },
+                            "designerId": "cbf8c316-a145-4a00-a716-d09bf117f86d"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Next"
+                            },
+                            "designerId": "99549ddd-e0b8-4766-8c8f-728ea32f678e"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Previous"
+                            },
+                            "designerId": "bb6c2e75-a7f9-4f50-aea4-acf58b2df93e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Project"
+            },
+            "designerId": "0b0e0de7-392e-4b8d-9ddf-634786f86d79",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "e68f746e-32ef-413d-a1e1-127df092aa66",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Open"
+                            },
+                            "designerId": "4d6ca3a7-8128-4c40-b3dd-cd71073169eb"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Close"
+                            },
+                            "designerId": "f6e1a112-2b62-4ea9-99ba-58a65b822cc1"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "7e6851c0-95fe-457f-8603-482fdd100431"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Build all"
+                            },
+                            "designerId": "526472bd-13cd-45ba-862b-2ce98b8cbfb3"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Build project"
+                            },
+                            "designerId": "1c004bfc-8200-4a8f-97f0-f4985f5a4100"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Buyld automatically"
+                            },
+                            "designerId": "3bd2167d-ebab-46b1-8d76-2324a0547c94"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "b474a752-f44c-476b-b512-98f533adac00"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Properties"
+                            },
+                            "designerId": "d07db33e-b234-4920-a756-922dc6ee438b"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Run"
+            },
+            "designerId": "39c6f827-8847-43f5-86c9-19d3af78807d",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "cc17c739-9b3e-4d24-81bf-48fe40319ad8",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Run"
+                            },
+                            "designerId": "d36c9d2b-b705-4096-8f59-68434a7fb984"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Debug"
+                            },
+                            "designerId": "94ace331-adc5-4f26-8f26-d1e18f4fce5c"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Configure"
+                            },
+                            "designerId": "096daebd-0738-4fc3-aa37-34141e267cf8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "text": "Help"
+            },
+            "designerId": "897d1e40-df3f-45b6-a84b-1e9a7f1ba7b7",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "menu",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "1778315b-5deb-4711-bba5-26aabb3a828f",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Contents"
+                            },
+                            "designerId": "c48606b3-54af-4836-a9a2-23c957f8e1d0"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Search"
+                            },
+                            "designerId": "7ec253da-43df-438e-a13f-867d36c597ff"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "About"
+                            },
+                            "designerId": "cbfda3e7-d0fb-48e2-836d-077f7a3ab02a"
+                        },
+                        {
+                            "type": "Ext.menu.Separator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "e68bd829-21a5-4bf7-bba3-6552199d0227"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Settings"
+                            },
+                            "designerId": "5ea0bd47-1964-4d72-8be6-9fc4c7cd2113"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "destroyMenu": true,
+                "text": "MyButton"
+            },
+            "designerId": "b62f4bd9-f9a6-4090-ba9d-1746623ac1fb"
+        }
+    ]
+}

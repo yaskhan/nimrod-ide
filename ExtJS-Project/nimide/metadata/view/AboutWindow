@@ -1,0 +1,55 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|snapToGrid": 10,
+        "height": 248,
+        "width": 501,
+        "designer|userClassName": "AboutWindow",
+        "layout": "absolute",
+        "title": "About"
+    },
+    "designerId": "75d11c16-4425-4162-8c60-4b0a0124c564",
+    "cn": [
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|x": 150,
+                "layout|y": 140,
+                "height": 50,
+                "width": 180,
+                "text": "OK"
+            },
+            "designerId": "9e763463-7976-4749-b28a-85f29826bc62"
+        },
+        {
+            "type": "Ext.form.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|x": 10,
+                "layout|y": 10,
+                "height": 190,
+                "html": "<h1>NimrodIDE</h1><br>author: Yaskhan Ashimbayev<br>2013",
+                "style": [
+                    "text-align: center;"
+                ],
+                "width": 450,
+                "text": ""
+            },
+            "designerId": "109d9fec-b4b1-43c9-adaf-0f3f9811026d"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "MainViewport",
+            "ConfigWindow",
+            "SearchWindow",
+            "AboutWindow",
+            "MainFilesPanel",
+            "MainVariablesPanel",
+            "MainConsolePanel",
+            "MainSourceTabPanel",
+            "Search.ModeFieldset",
+            "Search.searcheComboBox"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "designerId": "application"
+}

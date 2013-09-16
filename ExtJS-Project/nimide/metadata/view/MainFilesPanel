@@ -1,0 +1,165 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 444,
+        "maxWidth": null,
+        "width": 228,
+        "designer|userClassName": "MainFilesPanel",
+        "designer|userAlias": "MainFilesPanelAlias",
+        "layout": "border",
+        "bodyBorder": false,
+        "collapsible": true,
+        "title": "Files"
+    },
+    "designerId": "7e0f4aa3-bed7-4c10-a6b5-af10bf968440",
+    "cn": [
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "activeTab": 0
+            },
+            "designerId": "172c77b9-0954-4245-934b-41b0b29ad232",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 113,
+                        "layout": "border",
+                        "title": "App Exploler"
+                    },
+                    "designerId": "f90a9346-b9c5-4702-9f04-c4876b8ff80b",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "d603cb2b-1764-4fdc-a385-ae43c800772e"
+                        },
+                        {
+                            "type": "Ext.tree.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|region": "center",
+                                "header": false,
+                                "title": "My Tree Panel"
+                            },
+                            "designerId": "2ea5deb1-3ee5-426c-9600-75d99d64f5b3",
+                            "cn": [
+                                {
+                                    "type": "Ext.tree.View",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "e7a56745-8883-4020-957a-743d572d876e"
+                                },
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "dockedItems",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dock": "top",
+                                        "padding": "2 2 2 2",
+                                        "width": 100,
+                                        "fieldLabel": null
+                                    },
+                                    "designerId": "83d83ccf-3847-4c94-9f5c-1d568606ac6c"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "border",
+                        "title": "Project Exploler"
+                    },
+                    "designerId": "06383b18-eeb4-49b7-bba8-a6b8c23affa4",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "fef74d01-d4b8-406b-a800-2cdac4352677"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "top",
+                                "padding": "2 2 2 2",
+                                "fieldLabel": null
+                            },
+                            "designerId": "88f05be3-480b-4898-a79e-d0b475034257"
+                        },
+                        {
+                            "type": "Ext.tree.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|region": "center",
+                                "header": false,
+                                "title": "My Tree Panel"
+                            },
+                            "designerId": "2046f1d1-1e7f-48f5-a632-d927732bcbac",
+                            "cn": [
+                                {
+                                    "type": "Ext.tree.View",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "designerId": "8ec68cfc-1b18-49d6-814d-4e31017a1c01"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

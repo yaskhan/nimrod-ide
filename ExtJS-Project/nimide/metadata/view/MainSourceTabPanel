@@ -1,0 +1,39 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainSourceTabPanel",
+        "designer|userAlias": "MainSourceTabPanelAlias",
+        "activeTab": 0
+    },
+    "designerId": "a6a26605-7fe9-4552-8739-d6198ccca0e0",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Tab 1"
+            },
+            "designerId": "d5e33c99-e91c-4b12-8440-6548511560e7",
+            "cn": [
+                {
+                    "type": "Ext.tab.Tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "7edf6e45-d3cb-469b-92ea-5419ff3e7beb"
+                }
+            ]
+        }
+    ]
+}

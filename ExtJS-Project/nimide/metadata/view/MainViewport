@@ -1,0 +1,86 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainViewport",
+        "designer|initialView": true,
+        "layout": "border"
+    },
+    "designerId": "4eb33245-4736-4e5c-ad83-644515d98b60",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "north"
+            },
+            "designerId": "6d5e5c07-9749-48d0-9ddb-40b6bc0d20cb",
+            "masterInstanceId": "624f2064-5205-42e8-844f-7a5cbcd3e275"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "west",
+                "layout|split": true
+            },
+            "designerId": "43613dcc-d979-4fa7-b09d-11ceebcd94b7",
+            "masterInstanceId": "7e0f4aa3-bed7-4c10-a6b5-af10bf968440"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "east",
+                "layout|split": true,
+                "designer|displayName": "OutlinePanel",
+                "title": "Outline"
+            },
+            "designerId": "95f6478f-768b-462f-8175-8a34b9b6d0e9",
+            "masterInstanceId": "3eeb04a4-57dc-4098-9b18-a2e2bdbf8756"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "south",
+                "layout|split": true
+            },
+            "designerId": "fbe4fc17-ee17-47cf-8499-8c5a11989db6",
+            "masterInstanceId": "897b0547-e764-489c-ae82-dfb2c8cc0a0b"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center"
+            },
+            "designerId": "0b1369be-3e75-491d-8031-a70478257e6a",
+            "masterInstanceId": "a6a26605-7fe9-4552-8739-d6198ccca0e0"
+        }
+    ]
+}
